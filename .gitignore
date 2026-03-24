@@ -1,0 +1,103 @@
+# ===============================
+
+# Spring Boot + Maven .gitignore
+
+# ===============================
+
+# ===== Build Outputs =====
+
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===== Maven Wrapper (KEEP THESE) =====
+
+.mvn/wrapper/maven-wrapper.jar
+!mvnw
+!mvnw.cmd
+
+# ===== Logs =====
+
+*.log
+logs/
+
+# ===== OS Files =====
+
+.DS_Store
+Thumbs.db
+
+# ===== Temp Files =====
+
+*.tmp
+*.swp
+*.bak
+
+# ===== Java Compiled =====
+
+*.class
+
+# ===== Environment / Secrets =====
+
+.env
+.env.*
+application-local.properties
+application-dev.properties
+
+# ===== Spring Boot =====
+
+*.pid
+*.seed
+
+# ===== IDE: IntelliJ IDEA =====
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ===== IDE: Eclipse / STS =====
+
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# ===== IDE: NetBeans =====
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ===== IDE: VS Code =====
+
+.vscode/
+
+# ===== Node (if frontend later added) =====
+
+node_modules/
+dist/
+coverage/
+
+# ===== Database =====
+
+*.db
+*.sqlite
+*.h2.db
+
+# ===== API / Config Dumps =====
+
+*.json.bak
+
+# ===== Misc =====
+
+*.zip
+*.tar.gz
+*.rar
